@@ -1,15 +1,20 @@
-import user from '../user.json'
-import * as s from './style'
+// import { useUser } from "../../../context/UserContext";
+import * as s from "./style";
 
-const Skill = () => (
+const Skill = ({user}) => {
+  
+    
+    console.log('skill', user)
+    return (
     <s.SkillsArea>
-        <s.SkillTitle>skills</s.SkillTitle>
-        <s.SkillBox>
-            {
-            user.skills.map(skill => <s.Skills key={skill}>{skill}</s.Skills>)
-            }
-        </s.SkillBox>
+      <s.SkillTitle>skills</s.SkillTitle>
+      <s.SkillBox>
+        {user.skills.map((skill) => (
+          <s.Skills key={skill}>{skill}</s.Skills>
+        ))}
+      </s.SkillBox>
     </s.SkillsArea>
-)
+  );
+};
 
-export default Skill
+export default Skill;

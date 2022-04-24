@@ -1,15 +1,17 @@
-
-import Card from './component/UserCard';
-import CountButton from "./component/CountButton";
-import Main from './component/Main'
+import UserProvider from './context/UserContext'
+// import Card from "./component/UserCard";
+// import {useUser} from './context/UserContext';
+import Container from './component/UserContainer';
 
 function App() {
+
+  // const {user} = useUser()
+  // console.log('app', user);
+
   return (
-    <div >
-      <Card/>
-      <CountButton step={2}/>
-      <Main/>
-    </div>
+    <UserProvider>
+      <Container/>              
+    </UserProvider>
   );
 }
 

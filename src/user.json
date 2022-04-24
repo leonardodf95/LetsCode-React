@@ -1,0 +1,36 @@
+[{
+    "id": "1",
+    "photo": "https://img.quizur.com/f/img6182d4b037c9b2.94544558.jpg?lastEdited=1635964083",
+    "name": "Monkey D. Luffy",
+    "city": "Dawn Island",
+    "description": "The future Pirate King!",
+    "skills": ["Eat", "Fight", "Stretch", "Eat more", "Captain"]
+},{
+    "id": "2",
+    "photo": "https://i.pinimg.com/originals/c7/91/4f/c7914fe9d034a01769502de04c4a0e9b.jpg",
+    "name": "Roronoa Zoro",
+    "city": "Shimotsuki Island",
+    "description": "The future best swordsman.",
+    "skills": ["Sleep", "Drink", "Practice", "Slice", "3 Swords"]
+},{
+    "id": "3",
+    "photo": "https://i.pinimg.com/564x/8e/60/80/8e6080bd8548642f1384451ab41a865c.jpg",
+    "name": "Nami",
+    "city": "Cocoyasi Village",
+    "description": "Navigator.",
+    "skills": ["Steal", "Bribe", "Weather Forecast", "Shopping", "Management"]
+},{
+    "id": "4",
+    "photo": "https://static.wikia.nocookie.net/naruto-onepiece-fairytail/images/5/53/Usopp.png",
+    "name": "Usopp",
+    "city": "Syrup Village",
+    "description": "The great warrior of the seas!",
+    "skills": ["Shooter", "Widget Creator", "Botanical", "Liar", "God"]
+},{
+    "id": "5",
+    "photo": "https://i.pinimg.com/originals/2f/3c/94/2f3c949240d375f8d705b5647a140c52.jpg",
+    "name": "Vinsmoke Sanji",
+    "city": "Baratie Sea Restaurant",
+    "description": "The Chef Cook.",
+    "skills": ["Chef Cook", "Lover", "Gentleman", "Smoker", "Strategist"]
+}]

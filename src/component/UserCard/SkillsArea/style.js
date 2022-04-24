@@ -12,6 +12,7 @@ export const SkillTitle = styled.h2`
     margin: 5px 0 0 5px;
     font-weight: 500;
     text-transform: uppercase;
+    color: #a9a4c2;
 `
 
 export const SkillBox = styled.div`
